@@ -1,3 +1,3 @@
-# palyhacks2.0
+# palyhacks3.0
 
-PalyHacks but 2.0 instead
+PalyHacks but 3.0 instead
