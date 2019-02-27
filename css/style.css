@@ -48,7 +48,7 @@ a:focus,a:hover{
 	text-align:left;
 }
 p{
-	font-size:100%;	
+	font-size:100%;
 	line-height:1.2;
 	color: rgba(0,0,0,0.7);
 	margin-bottom:20px
@@ -145,7 +145,7 @@ navbar-default .navbar-header .navbar-brand{
 
 /* Header*/
 header{
-	background-image: url('../img/codein2017.jpg') !important;
+	background-image: url('../img/background.jpg') !important;
 	position:relative;
 	width:100%;
 	text-align:center
@@ -393,7 +393,7 @@ img::-moz-selection{
     line-height:100%;
     color:#fff;
 }
- 
+
 .popup-close:hover {
     -webkit-transform:translate(50%, -50%) rotate(180deg);
     transform:translate(50%, -50%) rotate(180deg);
@@ -401,27 +401,6 @@ img::-moz-selection{
     text-decoration:none;
 }
 /* End Login Popup*/
-
-.cutBackground {
-    display:block;
-    position:relative;
-    width:100%;
-    height:100%;
-    text-align:center;
-    margin-left:auto;margin-right:auto;
-    text-align:center
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background: linear-gradient(rgba(10, 90, 11, 0.9), rgba(10, 90, 11, 0.9));
-    background-size:cover;
-    -webkit-clip-path: polygon(40px 0%, calc(100% - 40px) 0%, 100% 40px, 100% calc(100% - 40px), calc(100% - 40px) 100%, 40px 100%, 0% calc(100% - 40px), 0% 40px);
-    clip-path: polygon(0px 0%, calc(100% - 200px) 0%, 100% 200px, 100% calc(100% - 0px), calc(100% - 200px) 100%, 200px 100%, 0% calc(100% - 200px), 0% 200px);
-}
-
 
 
 .btn {
@@ -533,7 +512,7 @@ h2 {
 
 .codeblock-p {
     padding-left: 20px;
-    padding-right: 20px;
+    padding-right: 20px;s
     padding-top: 10px;
     background: green;
     min-width: 200px;
