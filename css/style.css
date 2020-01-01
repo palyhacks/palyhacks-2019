@@ -4,7 +4,7 @@ header,header,.header-content{
 }
 body,html{
 	height:100%;
-	width:100%
+	width: 100%;
 }
 body{
 	font-family:Arimo,'Helvetica Neue',Arial,sans-serif;
@@ -25,8 +25,8 @@ hr.primary{
 	border-width: 2px;
 }
 hr.light{
-	border-color:#fff
-	border-color:#FFFFFF;
+	border-color:#fff;
+
 }
 
 /*Links*/
@@ -145,10 +145,10 @@ navbar-default .navbar-header .navbar-brand{
 
 /* Header*/
 header{
-	background-image: url('../img/background.jpg') !important;
+	/* background-image: url('../img/background.jpg') !important; */
 	position:relative;
 	width:100%;
-	text-align:center
+	text-align:center;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-attachment: fixed;
@@ -268,7 +268,7 @@ img::-moz-selection{
 	position:relative;
 	width:100%;
 	color:white !important;
-	text-align:center
+	text-align:center;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-attachment: fixed;
@@ -341,8 +341,8 @@ img::-moz-selection{
     }
 }
 .no-gutter > [class*=col-] {
-    padding-right: 1;
-    padding-left: 1;
+    padding-right: 1px;
+    padding-left: 1px;
 }
 
 /* Login Popup */
@@ -512,7 +512,7 @@ h2 {
 
 .codeblock-p {
     padding-left: 20px;
-    padding-right: 20px;s
+    padding-right: 20px;
     padding-top: 10px;
     background: green;
     min-width: 200px;
@@ -521,4 +521,8 @@ h2 {
     margin: 0 auto;
     margin-top: 20px;
     border-radius: 10px;
+}
+
+#waves {
+    min-width: 100vw;
 }
